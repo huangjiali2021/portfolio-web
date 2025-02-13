@@ -26,19 +26,29 @@ html, body {
 
 .left_topnav{
     display: flex;
-    gap: 2vw;
+    gap: 4vw;
 }
 
 .left_topnav a{
     text-decoration: none;
 }
 
-.threed {
+.threed, .other {
     position: relative;
   }
 
-.threed_subnav{
+.threed_subnav, .other_subnav{
     position: absolute;
+    display: none;
+}
+
+.threed_subnav, .other_subnav a{
+    padding-right: 2vw;
+}
+.threed:hover .threed_subnav, .other:hover .other_subnav {
+   /* display: block; */ /* 鼠标悬停时显示 */
+    display: flex; 
+    flex-direction: column;
 }
 
 .right_topnav{
@@ -53,6 +63,10 @@ html, body {
 
 .right_topnav a:hover{
     transform: scale(1.1);
+}
+
+.envart_content{
+    flex-wrap: wrap;
 }
 
 .hello{
@@ -166,8 +180,13 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h4 {
+    font-size: 1.1vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 p {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 
