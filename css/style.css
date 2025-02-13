@@ -8,6 +8,7 @@ html, body {
     padding: 0;
     width: 100%;
     overflow-x: hidden; /* 禁止水平滚动条 */
+    scroll-behavior: smooth;/*平滑滚动*/
 }
 
 .topnav{
@@ -32,6 +33,13 @@ html, body {
     text-decoration: none;
 }
 
+.threed {
+    position: relative;
+  }
+
+.threed_subnav{
+    position: absolute;
+}
 
 .right_topnav{
     display: flex;
