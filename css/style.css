@@ -137,6 +137,14 @@ html, body {
 }
 
 
+.projectintro{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2vw;
+}
+
+
+
 
 .introduction{
     display: flex;
