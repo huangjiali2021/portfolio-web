@@ -169,6 +169,8 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 2vw;
+    border: none;  /* 确保没有边框 */
+    padding: 0;
 }
 
 h1{
