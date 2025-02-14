@@ -128,7 +128,7 @@ html, body {
     transform: scale(1.1);
 }
 
-.envart_content, .game_content{
+.envart_content, .game_content, .animation_content{
     display: flex;
     justify-content: space-between; 
     flex-wrap: wrap;
