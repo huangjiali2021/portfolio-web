@@ -37,6 +37,10 @@ html, body {
     margin: 0 6vw;
 }
 
+.content img{
+    width: 26vw;
+}
+
 .hello{
     display: flex;
     border:#9D9AF2 1px solid;
